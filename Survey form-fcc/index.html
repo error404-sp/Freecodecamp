@@ -1,0 +1,56 @@
+<html>
+<body>
+  
+  
+    <h1 class="title" >COVID-19 Survey Form</h1>
+      <p class="description">This is a assessment form to evaluate risk of COVID-19</p>
+  <div class= "block">
+    <form class="survey-form" action="/submit-info"></form>
+    <div class="name-label">
+      <label for="name-label">Enter your name:</label><br><br>
+      <input type="text" id="name-label" placeholder='Name' required >
+    </div><br>
+    <div id="email-no">
+     <label for="email-label" >Enter your email:</label><br><br>
+
+<input type="email" id="email-label"
+       pattern=".+@gmail.com" size="30" placeholder="xyz@gmail.com" required>
+    </div><br>
+    <div>
+       <label for="number-label">Age:</label><br><br>
+      <input type="number" id="number-label" min="1" max="100" placeholder="'x' Members" > </div><br>
+    
+    <div>
+      <label for="questions" >Have you come into close contact (within 6 feet) with someone who has a laboratory confirmed COVID-19 diagnosis in the past 14 days? </label><br>
+      <input type="radio" id="questions" name="user-recommend"
+          class="input-radio">Yes<br>
+      <input type="radio" id="questions"name="user-recommend"
+        
+          class="input-radio">No<br>
+    </div>
+    <div>
+      <p>Which zone do you belong to?</p>
+      <select id="dropdown"  required>
+        <option>None</option>
+        <option>Red zone</option>
+        <option>Non red zone</option></select>
+        </div><br>
+      <div>
+        <label for="checkbox">Do you experience any of the symptoms?</label><br>
+        <input type="checkbox">Fever<br>
+         <input type="checkbox">Chestpain<br>
+          <input type="checkbox">Difficulty in breathing<br> 
+          <input type="checkbox">Dry cough<br>
+      </div>
+      <div class="form-group">
+      <p>Comment</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+  <button type="submit" id="submit">Submit</button></div>
+    </body></html>
+</html>

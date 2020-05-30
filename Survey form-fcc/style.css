@@ -1,0 +1,54 @@
+#name-label{
+  width: 80%;
+}
+#email-label{
+  width: 80%;
+}
+#number-label{
+  width: 80%;
+}
+body{
+background-image: url("https://images.radio.com/kxntam/GettyImages-1206774789_1.jpg?width=775&height=425&crop=775:425,smart");
+ padding: 10px; 
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.block{
+  background: white;
+  color: #25383C;
+  padding:5vw;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+ 
+  
+}
+h1{
+  background: #FBA90A;
+  border-radius: 5px;
+  
+  text-align: center;
+max-width: 100%
+}
+#submit{
+  background: linear-gradient(315deg, #06bcfb 0%, #4884ee 100%);
+  width: 80px;
+  height: 30px;
+  border: solid 1px #06bcfb ;
+  border-radius: 8px;
+  font-size: 15px;
+  position: relative;
+  left: 0vw;
+  top: 2vw;
+}
+#submit:hover{
+  border: solid 2px #06bcfb ;
+  background: white;
+  color: #0476d0;
+ 
+  
+}
+@media(min-width: 300px)
+{body{
+  padding: 10%;}
+}
